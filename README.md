@@ -9,18 +9,6 @@ Show electric prices from today and tomorrow. Requires custom backend.
 PUBLIC_PRICE_API=http://192.168.1.100:8000/ele/price
 ```
 
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
 ## Developing
 
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
