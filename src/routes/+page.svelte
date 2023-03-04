@@ -22,6 +22,7 @@ article {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    align-items: flex-start;
 }
 
 header {
