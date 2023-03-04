@@ -12,6 +12,7 @@ RUN npm run build
 FROM node:18-slim as run
 
 WORKDIR /app
+COPY --from=build /app/.env ./.env
 COPY --from=build /app/package.json ./package.json
 COPY --from=build /app/build ./build
 RUN npm install --production
